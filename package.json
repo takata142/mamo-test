@@ -1,0 +1,30 @@
+{
+  "name": "express-work",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -e ejs,js,json start ./bin/www",
+    "lint": "eslint ./app/**/*.js --fix"
+  },
+  "dependencies": {
+    "body-parser": "~1.19.0",
+    "cookie-parser": "~1.4.5",
+    "debug": "~4.3.2",
+    "express": "~4.17.1",
+    "moment": "^2.29.1",
+    "moment-random": "^1.1.0",
+    "moment-timezone": "^0.5.34",
+    "morgan": "~1.10.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "nodemon": "^2.0.14"
+  }
+}
